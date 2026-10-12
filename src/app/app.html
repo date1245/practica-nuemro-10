@@ -1,0 +1,25 @@
+<a-scene>
+  <a-sky src="360.jpg" rotation="0 90 0"></a-sky>
+
+  <a-camera position="0 1.6 0">
+    <a-cursor color="#FFF"></a-cursor>
+  </a-camera>
+
+  <!-- Nombre -->
+  <a-text
+    value="Sebastián Gómez"
+    position="0 2.3 -3"
+    align="center"
+    scale="2.5 2.5 2.5"
+    [attr.color]="color"
+    (click)="cambiarColor()">
+  </a-text>
+
+  <!-- Cubo -->
+  <a-box
+    position="0 1 -3"
+    rotation="0 45 0"
+    [attr.color]="boxColor"
+    (click)="toggleColor()">
+  </a-box>
+</a-scene>

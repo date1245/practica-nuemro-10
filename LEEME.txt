@@ -1,0 +1,9 @@
+1. Copia src/app/app.ts y src/app/app.html a tu proyecto (reemplaza los existentes).
+2. En src/index.html agrega dentro de <head>:
+   <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+3. Pon tu imagen panoramica como 360.jpg en la carpeta public/
+4. Ejecuta: ng serve  -> http://localhost:4200
+5. Subir a Git:
+   git add .
+   git commit -m "Visor 360 con nombre Sebastian Gomez"
+   git push
